@@ -6,7 +6,7 @@ Attention some files contain malicious content it its for educational purpuses o
 whois.py - a nslookup tool
 caesarcipher.py - a tool to encrypt and decrypt messages 
 passgen.py - a (safe) password generator
-passmanager.py - a passwordmanager tool (buged)
+passmanager.py - a passwordmanager tool (bugged)
 portscanner.py - a portscan script useing nmap in python
 
 voldemort.py - a examplpe of ransomware
