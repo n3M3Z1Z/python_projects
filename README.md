@@ -7,7 +7,7 @@ whois.py - a nslookup tool
 caesarcipher.py - a tool to encrypt and decrypt messages 
 passgen.py - a (safe) password generator
 passmanager.py - a passwordmanager tool (bugged)
-portscanner.py - a portscan script useing nmap in python
+portscanner.py - a portscan script useing nmap in python (bugged) 
 
 voldemort.py - a examplpe of ransomware
 decrypt.py - the tool to decrypt files encrypted by voldemort.py
