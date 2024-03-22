@@ -1,13 +1,14 @@
 # python_projects
-python projects related to cybersecurity &amp; hacking
+python projects related to cybersecurity & hacking
 
 Attention some files contain malicious content it its for educational purpuses only don't use them to couse any harm 
 
 whois.py - a nslookup tool
 caesarcipher.py - a tool to encrypt and decrypt messages 
-passgen.py - a (safe) password generator
-passmanager.py - a passwordmanager tool (bugged)
+passgen.py - a password generator that creates a strong and safe password.
+passmanager.py - a passwordmanager tool (bugged) 
 portscanner.py - a portscan script useing nmap in python (bugged) 
 
-voldemort.py - a examplpe of ransomware
+
+voldemort.py - ransomware, encryoṕtion of all files in current folder.
 decrypt.py - the tool to decrypt files encrypted by voldemort.py
