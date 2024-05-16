@@ -10,7 +10,9 @@ caesarcipher_gui.py - same tool as caesarcipher.py but woth a GUI
 passgen.py - a password generator that creates a strong and safe password.
 passwordgenerator_gui.py - Modified version of passgen.py added a GUI
 
-passmanager.py - a passwordmanager tool (not working) 
+passmanager.py - a passwordmanager tool (in development - some crucial functions missing)
+passwordgernerator_gui.py - passmanager.py with a GUI (in development some crucial functions missing)
+
 portscanner.py - a portscan script useing nmap in python (not working) 
 
 largetask.py - a shell calculator in python
