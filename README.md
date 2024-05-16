@@ -1,11 +1,17 @@
 # python_projects
-python projects related to cybersecurity & hacking
+python projects mostly related Cybersecurity
 
 whois.py - a nslookup tool
+whois_gui.py - whois.py with a GUI for easy access
+
 caesarcipher.py - a tool to encrypt and decrypt messages 
+caesarcipher_gui.py - same tool as caesarcipher.py but woth a GUI
+
 passgen.py - a password generator that creates a strong and safe password.
-passmanager.py - a passwordmanager tool (bugged) 
-portscanner.py - a portscan script useing nmap in python (bugged) 
+passwordgenerator_gui.py - Modified version of passgen.py added a GUI
+
+passmanager.py - a passwordmanager tool (not working) 
+portscanner.py - a portscan script useing nmap in python (not working) 
 
 largetask.py - a shell calculator in python
 calculator.py - GUI version of largetask.py
