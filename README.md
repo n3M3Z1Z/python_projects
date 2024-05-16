@@ -1,7 +1,9 @@
 # python_projects
 python projects related to cybersecurity & hacking
 
-Attention some files contain malicious content it its for educational purpuses only don't use them to couse any harm 
+Attention some files contain malicious content it its for educational purpuses only don't use them to couse any harm.
+Also don't use any malicious software on a system you don't own or you don't have written permission to use them.
+I'm not responisble if you use them.
 
 whois.py - a nslookup tool
 caesarcipher.py - a tool to encrypt and decrypt messages 
