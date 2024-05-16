@@ -25,6 +25,8 @@ def display_results():
     # Create text widget to display results
     result_text = tk.Text(result_window, wrap=tk.WORD, width=80, height=20)
     result_text.insert(tk.END, result)
+    result_text.configure(foreground="#FF0000")  # Set text color to rainbow
+    result_text.configure(bg="#1E1E1E")          # Set background color to dark gray
     result_text.pack(padx=10, pady=10)
 
 # Function to toggle between light and dark themes
