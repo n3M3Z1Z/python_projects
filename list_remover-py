@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+
+def list_remover(lst, index):
+    try:
+        # Attempt to remove element from ndex
+        removed_element = lst.pop(index)
+        return lst
+    except IndexError:
+        # Handle the case where the index is out of range
+        print(f"Error: Index {index} is out of range for the list.")
+        return lst
+    except TypeError:
+        # Handle the case where the index is not integer
+        print(f"Error: Index {index} must be an integer.")
+        return lst
+
+# Example usage:
+my_list = [1, 2, 3, 4, 5, "not an integer", 42, True, "also no integer"]
+print("Original list:", my_list)
+
+# Attempt to remove the element at index 2
+result = list_remover(my_list, 2)
+print("List after removal:", result)
+
+# Attempt to remove an element at an out-of-range index
+result = list_remover(my_list, 10)
+print("List after attempting out-of-range removal:", result)
+
+# Attempt to remove an element with a non-integer index
+result = list_remover(my_list, 'a')
+print("List after attempting removal with non-integer index:", result)
