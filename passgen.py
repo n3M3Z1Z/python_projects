@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-#import section
-
 import random
 import string
 

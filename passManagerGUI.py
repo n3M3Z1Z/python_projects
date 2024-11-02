@@ -2,7 +2,6 @@
 
 # Import Section
 import hashlib
-import getpass
 import tkinter as tk
 from tkinter import messagebox
 

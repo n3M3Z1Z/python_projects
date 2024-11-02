@@ -1,12 +1,9 @@
 # Import nessesary moduls
 import smtplib
 import importlib
-import sys
-import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
-from datetime import datetime
 import logging
 
 # Function to install missing modules
