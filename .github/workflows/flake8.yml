@@ -1,0 +1,20 @@
+name: flake8
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y flake8
+
+      - name: Run flake8
+        run: flake8 .
