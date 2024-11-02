@@ -42,6 +42,7 @@ def handle_decrypt():
     else:
         messagebox.showwarning("Input Error", "Please enter a message to decrypt.")
 
+
 # Set up the main window
 app = tk.Tk()
 app.title("RSA Encrypt/Decrypt")

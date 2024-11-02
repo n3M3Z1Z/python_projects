@@ -40,6 +40,7 @@ def battle(beast_range):
     # Simulate GUI waiting animation
     time.sleep(2)
 
+
 # Welcome Message
 print_color("blue", "Welcome")
 time.sleep(1)

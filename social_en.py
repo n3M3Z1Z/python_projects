@@ -19,6 +19,7 @@ def install_and_import(package):
     finally:
         globals()[package] = importlib.import_module(package)
 
+
 # Install required modules
 required_modules = ['smtplib', 'email', 'datetime', 'logging']
 for module in required_modules:
@@ -74,6 +75,7 @@ def generate_dynamic_content(username):
     </html>
     """
     return body
+
 
 # Usage:
 sender_email = "youremail@gmail.com"

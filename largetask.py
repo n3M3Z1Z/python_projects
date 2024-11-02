@@ -34,5 +34,6 @@ def calculator():
     else:
         print("The program will be terminated.")
 
+
 # Call the function to start the calculator
 calculator()

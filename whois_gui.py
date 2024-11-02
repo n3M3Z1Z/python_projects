@@ -17,11 +17,11 @@ def whois_lookup(domain: str):
 def display_results():
     domain = entry_domain.get()
     result = whois_lookup(domain)
-    
+
     # Create new window for displaying results
     result_window = tk.Toplevel(root)
     result_window.title("Whois Lookup Results")
-    
+
     # Create text widget to display results
     result_text = tk.Text(result_window, wrap=tk.WORD, width=80, height=20)
     result_text.insert(tk.END, result)
@@ -40,6 +40,7 @@ def toggle_theme():
         root.configure(bg="#1E1E1E")
         frame.configure(bg="#1E1E1E")
         theme_button["text"] = "Dark Theme"
+
 
 # Create main window
 root = tk.Tk()

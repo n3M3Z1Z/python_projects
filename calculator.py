@@ -21,7 +21,7 @@ def calculate():
         elif operation == '*':
             result = num1 * num2
         elif operation == '/':
-# Checking for division by zero
+            # Checking for division by zero
             if num2 == 0:
                 raise ZeroDivisionError("Division by zero is not allowed. Get a coffee and refresh your math")
             result = num1 / num2
@@ -39,6 +39,7 @@ def clear():
     entry_num1.delete(0, tk.END)
     entry_num2.delete(0, tk.END)
     entry_operation.delete(0, tk.END)
+
 
 # Create main window
 root = tk.Tk()
