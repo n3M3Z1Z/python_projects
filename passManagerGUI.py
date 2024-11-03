@@ -2,7 +2,6 @@
 
 # Import Section
 import hashlib
-import getpass
 import tkinter as tk
 from tkinter import messagebox
 
@@ -75,6 +74,7 @@ def main():
     set_password_button.pack(pady=5)
 
     root.mainloop()
+
 
 if __name__ == "__main__":
     main()

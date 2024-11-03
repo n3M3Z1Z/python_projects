@@ -18,7 +18,7 @@ def battle(beast_range):
     beast = random.randint(beast_range[0], beast_range[1])
 
     # Simulate GUI battle animation
-    messagebox.showinfo("Battle", f"Get ready to battle! Beast is attacking!")
+    messagebox.showinfo("Battle", "Get ready to battle! Beast is attacking!")
 
     # Simulate GUI waiting animation
     time.sleep(1)
@@ -39,6 +39,7 @@ def battle(beast_range):
 
     # Simulate GUI waiting animation
     time.sleep(2)
+
 
 # Welcome Message
 print_color("blue", "Welcome")

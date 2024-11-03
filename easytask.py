@@ -19,6 +19,7 @@ def check_sign(num):
     else:
         print("this number is zero.")
 
+
 # examplenumber
 number = -10
 

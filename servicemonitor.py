@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import os
 import psutil
 import matplotlib.pyplot as plt
 
@@ -22,7 +21,8 @@ def display_service_usage(services):
     plt.title('CPU Usage by Services')
     plt.axis('equal')
     plt.show()
-    
+
+
 # call the function
 if __name__ == "__main__":
     active_services = get_active_services()

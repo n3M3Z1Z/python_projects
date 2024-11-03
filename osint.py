@@ -1,13 +1,13 @@
 """
-               .-')                 .-') _  .-') _      _ (`-.              
-              ( OO ).              ( OO ) )(  OO) )    ( (OO  )             
+               .-')                 .-') _  .-') _      _ (`-.
+              ( OO ).              ( OO ) )(  OO) )    ( (OO  )
  .-'),-----. (_)---\_)  ,-.-') ,--./ ,--,' /     '._  _.`     \  ,--.   ,--.
-( OO'  .-.  '/    _ |   |  |OO)|   \ |  |\ |'--...__)(__...--''   \  `.'  / 
-/   |  | |  |\  :` `.   |  |  \|    \|  | )'--.  .--' |  /  | | .-')     /  
-\_) |  |\|  | '..`''.)  |  |(_/|  .     |/    |  |    |  |_.' |(OO  \   /   
-  \ |  | |  |.-._)   \ ,|  |_.'|  |\    |     |  |    |  .___.' |   /  /\_  
-   `'  '-'  '\       /(_|  |   |  | \   |     |  |.-. |  |      `-./  /.__) 
-     `-----'  `-----'   `--'   `--'  `--'     `--'`-' `--'        `--'      
+( OO'  .-.  '/    _ |   |  |OO)|   \ |  |\ |'--...__)(__...--''   \  `.'  /
+/   |  | |  |\  :` `.   |  |  \|    \|  | )'--.  .--' |  /  | | .-')     /
+\_) |  |\|  | '..`''.)  |  |(_/|  .     |/    |  |    |  |_.' |(OO  \   /
+  \ |  | |  |.-._)   \ ,|  |_.'|  |\    |     |  |    |  .___.' |   /  /\_
+   `'  '-'  '\       /(_|  |   |  | \   |     |  |.-. |  |      `-./  /.__)
+     `-----'  `-----'   `--'   `--'  `--'     `--'`-' `--'        `--'
 """
 import subprocess
 import sys
@@ -24,6 +24,7 @@ def install_missing_modules(modules):
             __import__(module)
         except ImportError:
             subprocess.check_call([sys.executable, '-m', 'pip', 'install', module])
+
 
 # List of required modules
 required_modules = [
@@ -61,7 +62,7 @@ class OSINTFramework(tk.Tk):
 
     def create_entry(self, row):
         entry = tk.Entry(self, bg="white", fg="black")
-        entry.grid(row=row, column=1, padx=10, pady=5, sticky=tk.W+tk.E)
+        entry.grid(row=row, column=1, padx=10, pady=5, sticky=tk.W + tk.E)
         return entry
 
     def start_osint(self):
@@ -98,6 +99,7 @@ class OSINTFramework(tk.Tk):
 
         except Exception as e:
             self.results_text.insert(tk.END, f"Error: {str(e)}\n")
+
 
 # Main function to run the application
 if __name__ == "__main__":

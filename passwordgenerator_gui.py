@@ -18,6 +18,7 @@ def generate_and_display_password():
     password_text.delete(1.0, tk.END)
     password_text.insert(tk.END, password)
 
+
 # Create main window
 root = tk.Tk()
 root.title("Password Generator")

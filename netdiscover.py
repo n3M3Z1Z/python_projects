@@ -46,6 +46,7 @@ def get_local_ip():
         s.close()
     return local_ip
 
+
 # Get the local IP address
 # Define the IP range to scan (e.g., '192.168.1.0/24')
 if __name__ == "__main__":
@@ -64,4 +65,3 @@ if __name__ == "__main__":
             print(f"IP: {device['ip']}, MAC: {device['mac']}")
     else:
         print("No devices found.")
-

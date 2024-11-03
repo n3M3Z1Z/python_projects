@@ -24,8 +24,7 @@ while True:
 # print the summary
 print("the summary of all given numbers is:", total)
 
-# for loop to caculate the ² 
+# for loop to caculate the ²
 for i in range(1, 11):
     square = i * i
     print("the ² of", i, "is", square)
-

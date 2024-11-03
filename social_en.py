@@ -1,12 +1,9 @@
 # Import nessesary moduls
 import smtplib
 import importlib
-import sys
-import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
-from datetime import datetime
 import logging
 
 # Function to install missing modules
@@ -18,6 +15,7 @@ def install_and_import(package):
         pip.main(['install', package])
     finally:
         globals()[package] = importlib.import_module(package)
+
 
 # Install required modules
 required_modules = ['smtplib', 'email', 'datetime', 'logging']
@@ -74,6 +72,7 @@ def generate_dynamic_content(username):
     </html>
     """
     return body
+
 
 # Usage:
 sender_email = "youremail@gmail.com"

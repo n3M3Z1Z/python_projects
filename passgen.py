@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 
-#import section
-
 import random
 import string
 
-#Define and specify the function!
+# Define and specify the function!
 
 def generate_password(length: int = 25):
-	alphabet = string.ascii_letters + string.digits + string.punctuation
-	password = ''.join(random.choice(alphabet) for i in range(length))
-	return password
+    alphabet = string.ascii_letters + string.digits + string.punctuation
+    password = ''.join(random.choice(alphabet) for i in range(length))
+    return password
 
-#Output Section
+# Output Section
+
 
 password = generate_password()
 print(f"Generated password: {password}")
